@@ -1,0 +1,87 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-image: url(../photos/bg.jpg);
+    background-size: 100%;
+    background-position: center center;
+}
+header .icon{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+.about .title h2{
+    letter-spacing: 15px;
+    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgba(0, 0, 0, 0.2);
+}
+.title h3{
+    letter-spacing: 15px;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.about{
+    background-image: url(../photos/light_dot.jpg);
+}
+.services{
+    background-image: url(../photos/dark_dot.jpg);
+}
+
+.services .title h2{
+    letter-spacing: 15px;
+    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgba(255, 255, 255, 0.2);
+}
+.services .icon{
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+.services-content h3::after{
+    content: "";
+    width: 25%;
+    height: 2px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(188, 132, 132);
+    position: absolute;
+}
+
+.testimonial .title h2{
+    padding: 20px;
+    letter-spacing: 15px;
+    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item img{
+    width: 80px;
+    height: 80px;
+    border: 3px solid #f4f4f4;
+    transform: translateY(50%);
+}
+
+.brdr{
+    margin: 10px auto;
+    width: 10%;
+    height: 2px;
+    background-color: rgb(181, 93, 93);
+}
+
+.feadback{
+    border: 2px solid #f4f4f4;
+}
+.carousel-indicators{
+    padding: 20px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-indent: 0;
+}
